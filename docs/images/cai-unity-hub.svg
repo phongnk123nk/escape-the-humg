@@ -1,0 +1,18 @@
+<svg width="960" height="420" viewBox="0 0 960 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="420" rx="18" fill="#f6f8fa"/>
+  <rect x="48" y="44" width="230" height="332" rx="14" fill="#111827"/>
+  <text x="82" y="96" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="700">Unity Hub</text>
+  <rect x="72" y="136" width="174" height="44" rx="8" fill="#1f2937"/>
+  <text x="96" y="165" fill="#d1d5db" font-family="Arial, sans-serif" font-size="20">Projects</text>
+  <rect x="72" y="194" width="174" height="44" rx="8" fill="#2563eb"/>
+  <text x="96" y="223" fill="#ffffff" font-family="Arial, sans-serif" font-size="20" font-weight="700">Installs</text>
+  <rect x="318" y="44" width="594" height="332" rx="14" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+  <text x="354" y="96" fill="#111827" font-family="Arial, sans-serif" font-size="30" font-weight="700">Cài Unity Editor</text>
+  <rect x="354" y="130" width="220" height="58" rx="10" fill="#2563eb"/>
+  <text x="388" y="166" fill="#ffffff" font-family="Arial, sans-serif" font-size="22" font-weight="700">Install Editor</text>
+  <rect x="354" y="224" width="500" height="72" rx="10" fill="#f3f4f6" stroke="#d0d7de"/>
+  <text x="382" y="254" fill="#111827" font-family="Arial, sans-serif" font-size="22" font-weight="700">Unity 6000.3.9f1</text>
+  <text x="382" y="282" fill="#57606a" font-family="Arial, sans-serif" font-size="18">Chọn đúng bản để mở project ổn định.</text>
+  <path d="M574 159 C646 159 654 244 354 244" stroke="#16a34a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M354 244 L374 232 M354 244 L376 257" stroke="#16a34a" stroke-width="5" stroke-linecap="round"/>
+</svg>

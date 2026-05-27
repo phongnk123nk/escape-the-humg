@@ -1,94 +1,115 @@
 # Escape The HUMG
 
-Day la project game Unity. File source, scene, script, hinh anh, video nho va cac file `.meta` deu nam trong repo nay.
+Đây là project game Unity của **Escape The HUMG**. Repo này đã bao gồm mã nguồn, scene, script, hình ảnh, video nhỏ, prefab, package và toàn bộ file `.meta` cần thiết để tải về mở lại trong Unity.
 
-## Yeu cau cai dat
+![Tải project từ GitHub](docs/images/huong-dan-tai-github.svg)
 
-- Windows 10/11
-- Unity Hub
-- Unity Editor `6000.3.9f1`
-- Ket noi internet trong lan mo dau tien de Unity tai package theo `Packages/manifest.json`
+## 1. Cần cài những gì?
 
-Nen dung dung ban Unity trong project:
+Trước khi mở project, máy cần có:
+
+- **Windows 10 hoặc Windows 11**
+- **Unity Hub**
+- **Unity Editor 6000.3.9f1**
+- Internet trong lần mở đầu tiên để Unity tải package theo file `Packages/manifest.json`
+
+Project này được tạo bằng đúng phiên bản:
 
 ```text
-Unity 6.3 LTS - 6000.3.9f1
+Unity 6000.3.9f1
 ```
 
-Neu khong thay dung ban nay trong Unity Hub, co the cai ban Unity 6 gan nhat, nhung nen uu tien `6000.3.9f1` de tranh loi package hoac setting.
+Nên dùng đúng bản này để tránh lỗi package, lỗi scene, lỗi render hoặc Unity tự nâng cấp project.
 
-## Cach tai project ve may
+## 2. Cài Unity đúng phiên bản
 
-1. Mo link GitHub:
+![Cài Unity bằng Unity Hub](docs/images/cai-unity-hub.svg)
 
-   ```text
-   https://github.com/phongnk123nk/escape-the-humg
-   ```
+Làm theo các bước sau:
 
-2. Bam nut **Code** mau xanh.
-3. Chon **Download ZIP**.
-4. Giai nen file ZIP ra mot thu muc bat ky, vi du:
+1. Mở **Unity Hub**.
+2. Vào tab **Installs**.
+3. Bấm **Install Editor**.
+4. Tìm và cài **Unity 6000.3.9f1**.
+5. Nếu Unity Hub không hiện đúng bản này, hãy vào **Unity Download Archive**, tìm `6000.3.9f1`, rồi bấm **Install with Unity Hub**.
 
-   ```text
-   D:\UnityProjects\escape-the-humg
-   ```
+Khi cài module, nếu chỉ mở project và bấm Play trong Editor thì không cần cài thêm gì đặc biệt. Nếu muốn build game cho người khác chơi, nên cài thêm:
 
-Khong mo truc tiep project trong file ZIP. Phai giai nen truoc.
+- **Windows Build Support (IL2CPP)** nếu muốn build file `.exe`
+- **WebGL Build Support** nếu muốn build bản chơi trên trình duyệt
 
-## Cach cai Unity dung ban
+## 3. Tải project từ GitHub
 
-1. Mo **Unity Hub**.
-2. Vao tab **Installs**.
-3. Bam **Install Editor**.
-4. Chon Unity `6000.3.9f1`.
-5. Neu Unity Hub khong hien dung ban:
-   - Vao trang Unity Download Archive.
-   - Tim Unity `6000.3.9f1`.
-   - Bam **Install with Unity Hub**.
-6. Khi cai module, toi thieu can co:
-   - **Windows Build Support (IL2CPP)** neu muon build file `.exe`
-   - **WebGL Build Support** neu muon build cho trinh duyet
+Link repo:
 
-Chi can mo/chay trong Editor thi khong bat buoc cai module build.
+```text
+https://github.com/phongnk123nk/escape-the-humg
+```
 
-## Cach mo project trong Unity
+Cách tải:
 
-1. Mo **Unity Hub**.
-2. Bam **Add** hoac **Add project from disk**.
-3. Chon thu muc project vua giai nen.
+1. Mở link repo trên GitHub.
+2. Bấm nút **Code** màu xanh.
+3. Chọn **Download ZIP**.
+4. Giải nén file ZIP ra một thư mục dễ tìm, ví dụ:
 
-   Chon thu muc co cac folder nay:
+```text
+D:\UnityProjects\escape-the-humg
+```
 
-   ```text
-   Assets
-   Packages
-   ProjectSettings
-   ```
+Không mở project trực tiếp trong file ZIP. Bắt buộc phải giải nén trước.
 
-4. Bam **Open**.
-5. Lan dau mo project se lau vi Unity phai tao lai folder `Library`.
-6. Cho Unity import xong het asset va package.
+## 4. Mở project bằng Unity Hub
 
-Khong can folder `Library`, `Temp`, `Logs`, `UserSettings` trong GitHub. Unity se tu tao lai.
+![Mở project bằng Unity Hub](docs/images/mo-project-unity-hub.svg)
 
-## Cach chay game trong Unity
+Làm như sau:
 
-1. Trong Unity, mo cua so **Project**.
-2. Vao:
+1. Mở **Unity Hub**.
+2. Bấm **Add** hoặc **Add project from disk**.
+3. Chọn thư mục project đã giải nén.
+4. Chọn đúng thư mục có các folder sau:
 
-   ```text
-   Assets/Scenes
-   ```
+```text
+Assets
+Packages
+ProjectSettings
+```
 
-3. Mo scene:
+5. Bấm **Open**.
+6. Chờ Unity import toàn bộ asset.
 
-   ```text
-   main menu.unity
-   ```
+Lần đầu mở project sẽ hơi lâu vì Unity phải tự tạo lại thư mục `Library`.
 
-4. Bam nut **Play** o tren cung Unity.
+## 5. Chạy game trong Unity
 
-Scene build hien tai gom:
+![Chạy game trong Unity](docs/images/chay-game-unity.svg)
+
+Sau khi Unity import xong:
+
+1. Trong cửa sổ **Project**, mở thư mục:
+
+```text
+Assets/Scenes
+```
+
+2. Mở scene:
+
+```text
+main menu.unity
+```
+
+3. Bấm nút **Play** ở phía trên Unity.
+
+Scene đầu tiên của game là:
+
+```text
+Assets/Scenes/main menu.unity
+```
+
+## 6. Danh sách scene trong Build Settings
+
+Project hiện có các scene chính sau:
 
 ```text
 Assets/Scenes/main menu.unity
@@ -103,63 +124,93 @@ Assets/Scenes/hanh lang 3.unity
 Assets/Scenes/ending 1.unity
 ```
 
-## Neu bi loi khi mo project
+Nếu build game, hãy đảm bảo `main menu.unity` đứng đầu danh sách scene.
 
-### Unity bao sai version
+## 7. Các thư mục không có trong GitHub
 
-Hay cai dung Unity:
+Một số thư mục Unity tự sinh ra nên không cần đưa lên GitHub:
 
 ```text
-6000.3.9f1
+Library
+Temp
+Logs
+UserSettings
+.plastic
 ```
 
-Neu dung ban khac, Unity co the nang cap project va lam thay doi file setting.
+Khi tải project về và mở bằng Unity, Unity sẽ tự tạo lại các thư mục này.
 
-### Mo project bi mat hinh, mat sprite, mat prefab
+## 8. Lỗi thường gặp
 
-Kiem tra khi tai ve co day du file `.meta` khong. Khong duoc xoa file `.meta` trong `Assets`.
+### Unity báo sai phiên bản
 
-### Unity import rat lau
+Hãy cài đúng bản:
 
-Binh thuong trong lan mo dau. Unity dang tao lai `Library`.
+```text
+Unity 6000.3.9f1
+```
 
-### Bao loi package
+Nếu dùng bản Unity khác, Unity có thể tự nâng cấp project và làm thay đổi file setting.
 
-Thu cac buoc:
+### Mở project bị mất hình, mất sprite, mất prefab
 
-1. Dong Unity.
-2. Mo lai project bang Unity Hub.
-3. Dam bao may co internet.
-4. Neu van loi, xoa folder `Library` trong project roi mo lai.
+Nguyên nhân thường là thiếu file `.meta`.
 
-## Cach build ra file cho nguoi khac choi
+Khi tải project về, không được xóa các file `.meta` trong thư mục `Assets`.
 
-1. Mo Unity.
-2. Vao **File > Build Profiles** hoac **File > Build Settings**.
-3. Chon platform **Windows**.
-4. Dam bao scene dau tien la:
+### Unity import rất lâu
 
-   ```text
-   Assets/Scenes/main menu.unity
-   ```
+Đây là bình thường trong lần mở đầu tiên. Unity đang tạo lại thư mục `Library`.
 
-5. Bam **Build**.
-6. Chon thu muc output, vi du:
+### Project báo lỗi package
 
-   ```text
-   Builds/Windows
-   ```
+Thử làm theo thứ tự:
 
-7. Sau khi build xong, nen nen ca thu muc build thanh `.zip` roi gui cho nguoi khac.
+1. Đóng Unity.
+2. Mở lại project bằng Unity Hub.
+3. Kiểm tra máy có Internet.
+4. Nếu vẫn lỗi, xóa thư mục `Library`, sau đó mở lại project.
 
-Nguoi choi chi can chay file `.exe`, khong can cai Unity.
+## 9. Build game ra file cho người khác chơi
 
-## Ghi chu cho nguoi clone bang Git
+Nếu chỉ gửi source code thì người nhận cần cài Unity. Nếu muốn người khác chỉ tải về và chơi luôn, hãy build ra bản Windows.
 
-Neu dung Git thay vi Download ZIP:
+Cách build:
+
+1. Mở Unity.
+2. Vào **File > Build Profiles** hoặc **File > Build Settings**.
+3. Chọn platform **Windows**.
+4. Kiểm tra scene đầu tiên là:
+
+```text
+Assets/Scenes/main menu.unity
+```
+
+5. Bấm **Build**.
+6. Chọn thư mục output, ví dụ:
+
+```text
+Builds/Windows
+```
+
+7. Sau khi build xong, nén cả thư mục build thành file `.zip`.
+8. Gửi file `.zip` đó cho người khác.
+
+Người chơi chỉ cần giải nén và chạy file `.exe`, không cần cài Unity.
+
+## 10. Clone bằng Git
+
+Nếu không tải ZIP mà dùng Git, chạy lệnh:
 
 ```bash
 git clone https://github.com/phongnk123nk/escape-the-humg.git
 ```
 
-Sau do mo folder clone bang Unity Hub.
+Sau đó mở thư mục vừa clone bằng Unity Hub.
+
+## 11. Ghi chú
+
+- Không xóa file `.meta`.
+- Không cần tải hoặc copy thư mục `Library`.
+- Nên mở bằng Unity `6000.3.9f1`.
+- Lần đầu mở project có thể mất vài phút để Unity import lại toàn bộ dữ liệu.

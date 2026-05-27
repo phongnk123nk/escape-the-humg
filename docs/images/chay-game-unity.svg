@@ -1,0 +1,14 @@
+<svg width="960" height="420" viewBox="0 0 960 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="420" rx="18" fill="#1f2937"/>
+  <rect x="44" y="42" width="872" height="336" rx="14" fill="#2b2f36" stroke="#4b5563" stroke-width="2"/>
+  <rect x="44" y="42" width="872" height="52" rx="14" fill="#111827"/>
+  <text x="74" y="76" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="20">Unity Editor</text>
+  <rect x="417" y="52" width="126" height="34" rx="8" fill="#2563eb"/>
+  <path d="M464 60 L464 78 L484 69 Z" fill="#ffffff"/>
+  <text x="92" y="140" fill="#f9fafb" font-family="Arial, sans-serif" font-size="28" font-weight="700">Assets/Scenes/main menu.unity</text>
+  <rect x="92" y="174" width="776" height="150" rx="12" fill="#111827" stroke="#4b5563"/>
+  <text x="128" y="236" fill="#9ca3af" font-family="Arial, sans-serif" font-size="24">Mở scene main menu.unity</text>
+  <text x="128" y="276" fill="#9ca3af" font-family="Arial, sans-serif" font-size="24">Sau đó bấm nút Play để chạy game</text>
+  <path d="M480 120 L480 92" stroke="#60a5fa" stroke-width="5" stroke-linecap="round"/>
+  <path d="M480 92 L466 108 M480 92 L494 108" stroke="#60a5fa" stroke-width="5" stroke-linecap="round"/>
+</svg>

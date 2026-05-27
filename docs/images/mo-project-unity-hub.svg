@@ -1,0 +1,12 @@
+<svg width="960" height="420" viewBox="0 0 960 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="420" rx="18" fill="#eef2ff"/>
+  <rect x="60" y="54" width="840" height="312" rx="16" fill="#ffffff" stroke="#c7d2fe" stroke-width="2"/>
+  <text x="96" y="110" fill="#1e1b4b" font-family="Arial, sans-serif" font-size="32" font-weight="700">Add project from disk</text>
+  <rect x="96" y="146" width="320" height="62" rx="10" fill="#4f46e5"/>
+  <text x="142" y="185" fill="#ffffff" font-family="Arial, sans-serif" font-size="24" font-weight="700">Add project</text>
+  <rect x="96" y="250" width="720" height="72" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="124" y="280" fill="#0f172a" font-family="Arial, sans-serif" font-size="22" font-weight="700">Chọn thư mục có đủ:</text>
+  <text x="124" y="308" fill="#475569" font-family="Arial, sans-serif" font-size="20">Assets / Packages / ProjectSettings</text>
+  <path d="M416 177 L510 177 L510 286 L816 286" stroke="#22c55e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M816 286 L794 273 M816 286 L794 299" stroke="#22c55e" stroke-width="5" stroke-linecap="round"/>
+</svg>
