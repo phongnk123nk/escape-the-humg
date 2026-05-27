@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/main menu.unity
+    guid: 2c6044fe1e5f67246a1a3ab4ed46669f
+  - enabled: 1
+    path: Assets/Scenes/room1.unity
+    guid: 53520063afddee64596cb1fea37f90ba
+  - enabled: 1
+    path: Assets/Scenes/GOODENDING.unity
+    guid: 18f67ee43d365564ab36456d00b304f1
+  - enabled: 1
+    path: Assets/Scenes/BangXepHinh.unity
+    guid: d4d9257aa4b040f41ab7d381c1e3cbea
+  - enabled: 1
+    path: Assets/Scenes/hanh lang 1.unity
+    guid: a1a70653129ad5c45be516f468902c3a
+  - enabled: 1
+    path: Assets/Scenes/PhongThiNghiem.unity
+    guid: 9e7736395bf1e4d4ca52ce9dec33f426
+  - enabled: 1
+    path: Assets/Scenes/hanh lang 2.unity
+    guid: d15fa6e66882d49438625d5b22736bdf
+  - enabled: 1
+    path: Assets/Scenes/PhongTinHoc.unity
+    guid: 4f68e1225e66d464bb754aaa33d38927
+  - enabled: 1
+    path: Assets/Scenes/hanh lang 3.unity
+    guid: 7f357cec01d4d2c43b108cf83a2a526d
+  - enabled: 1
+    path: Assets/Scenes/ending 1.unity
+    guid: 05d3c7505cd55394b877dfa9868dc12c
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0
